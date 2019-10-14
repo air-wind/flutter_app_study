@@ -3,6 +3,7 @@ import 'demo/drawer_demo.dart';
 import 'demo/bottom_navigation.dart';
 import 'demo/listview_demo.dart';
 import 'demo/basic_demo.dart';
+import 'demo/layut_demo.dart';
 
 void main() => runApp(App());
 
@@ -63,7 +64,8 @@ class Home extends StatelessWidget{
               children: <Widget>[
                 ListViewDemo(),
                 BasicDemo(),
-                Tab(icon: Icon(Icons.ac_unit, size: 160, color: Colors.black12),),
+//                Tab(icon: Icon(Icons.ac_unit, size: 160, color: Colors.black12),),
+                LayoutDemo(),
               ],
           ),
           bottomNavigationBar: BottomNavigation(),
