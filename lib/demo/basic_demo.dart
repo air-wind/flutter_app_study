@@ -80,7 +80,7 @@ class BasicDemo extends StatelessWidget{
                       width: 4,
                       color: Colors.green[100]
                     ),
-//                    borderRadius: BorderRadius.circular(45),
+                    borderRadius: BorderRadius.circular(45),
   //                  borderRadius: BorderRadius.only(
   //                    topLeft: Radius.circular(24),
   //                    bottomLeft: Radius.circular(34)
@@ -93,7 +93,7 @@ class BasicDemo extends StatelessWidget{
                         spreadRadius: -1
                       ),
                     ],
-                    shape: BoxShape.circle,
+//                    shape: BoxShape.circle,
 //                    gradient: LinearGradient(
 //                        colors: [
 //                          Colors.lightBlueAccent,

@@ -5,6 +5,7 @@ import 'demo/listview_demo.dart';
 import 'demo/basic_demo.dart';
 import 'demo/layut_demo.dart';
 import 'demo/view_demo.dart';
+import 'demo/sliver_demo.dart';
 
 void main() => runApp(App());
 
@@ -15,6 +16,7 @@ class App extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Hello",
+//      home: Home(),
       home: Home(),
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
@@ -67,7 +69,7 @@ class Home extends StatelessWidget{
                 ListViewDemo(),
                 BasicDemo(),
 //                Tab(icon: Icon(Icons.ac_unit, size: 160, color: Colors.black12),),
-                LayoutDemo(),
+                SliverDemo(),
                 ViewDemo(),
               ],
           ),
