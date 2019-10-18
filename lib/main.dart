@@ -32,7 +32,7 @@ class App extends StatelessWidget{
         "/register": (context)=>FormDmeo(),
         "/mdc": (context)=>MaterialCompontent(),
 //        "/state_managment": (context)=>StateManagmentDemo(),
-        "/state_managment": (context)=>StateManagementDemo(),
+        "/state_managment": (context)=>ScropedModelDemo(),
       },
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
