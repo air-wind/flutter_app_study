@@ -9,6 +9,9 @@ import 'demo/sliver_demo.dart';
 import 'demo/navigator_demo.dart';
 import 'demo/form_demo.dart';
 import 'demo/material_compontent.dart';
+//import 'demo/state/state_managment_demo.dart';
+import 'demo/state/scoped_model.dart';
+
 
 void main() => runApp(App());
 
@@ -21,13 +24,15 @@ class App extends StatelessWidget{
       title: "Hello",
 //      home: Home(),
 //      home: NavigatorDemo(),
-      initialRoute: "/mdc",
+      initialRoute: "/state_managment",
       routes: {
 //        "/": (context) => NavigatorDemo(),
         "/": (context) => Home(),
         "/about": (context)=>Page(tittle:"ABOUT"),
         "/register": (context)=>FormDmeo(),
-        "/mdc": (context)=>MaterialCompontent()
+        "/mdc": (context)=>MaterialCompontent(),
+//        "/state_managment": (context)=>StateManagmentDemo(),
+        "/state_managment": (context)=>StateManagementDemo(),
       },
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
@@ -93,5 +98,3 @@ class Home extends StatelessWidget{
     );
   }
 }
-
-
