@@ -8,8 +8,8 @@ class DateTableDemo extends StatefulWidget {
 }
 
 class _DateTableDemoState extends State<DateTableDemo> {
-  bool _sortAscending;
-  int _sortColumnIndex;
+  bool _sortAscending = true;
+  int _sortColumnIndex = 0;
 
   @override
   Widget build(BuildContext context) {
