@@ -11,6 +11,7 @@ import 'demo/form_demo.dart';
 import 'demo/material_compontent.dart';
 //import 'demo/state/state_managment_demo.dart';
 import 'demo/state/scoped_model.dart';
+import 'demo/stream/stream_demo.dart';
 
 
 void main() => runApp(App());
@@ -24,7 +25,7 @@ class App extends StatelessWidget{
       title: "Hello",
 //      home: Home(),
 //      home: NavigatorDemo(),
-      initialRoute: "/state_managment",
+      initialRoute: "/stream",
       routes: {
 //        "/": (context) => NavigatorDemo(),
         "/": (context) => Home(),
@@ -33,6 +34,7 @@ class App extends StatelessWidget{
         "/mdc": (context)=>MaterialCompontent(),
 //        "/state_managment": (context)=>StateManagmentDemo(),
         "/state_managment": (context)=>ScropedModelDemo(),
+        "/stream": (context)=>StreamDemo(),
       },
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,

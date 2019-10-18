@@ -46,7 +46,7 @@ class CounterWrap extends StatelessWidget{
   }
 }
 
-    class Counter extends StatelessWidget {
+class Counter extends StatelessWidget {
     @override
     Widget build(BuildContext context) {
     int _count = CounterProvider.of(context).count;
