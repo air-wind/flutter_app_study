@@ -45,7 +45,7 @@ class Counter extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScopedModelDescendant<CounterModel>(
         builder: (context, child, model) => ActionChip(
-          label: Text("{$model._count}"),
+          label: Text('${model.count}'),
           onPressed: model.increaseCount,
         )
     );
